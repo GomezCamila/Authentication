@@ -22,7 +22,7 @@
 
 </head>
 <body>
-  <h1>Welcome, <:out value="${user.email}"/> </h1>
+  <h1>Welcome, <c:out value="${user.email}" /> </h1>
   <a href="/logout">Logout</a>
 </body>
 </html>
